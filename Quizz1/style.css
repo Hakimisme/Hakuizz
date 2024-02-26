@@ -1,0 +1,56 @@
+/* Style de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrer verticalement */
+    min-height: 100vh; 
+    background-color: #A9F49C;
+}
+
+.title {
+    color: #ffffff;
+}
+
+.button {
+    background-color: #0D9B1B;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #36b943;
+}
+
+.button a {
+    text-decoration: none; 
+    color: #fff;
+}
+
+.option {
+    background-color: #0D9B1B;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.option:hover {
+    background-color: #36b943;
+}
+
+.option.correct {
+    background-color: green !important;
+}
+
+.option.incorrect {
+    background-color: red !important;
+}
